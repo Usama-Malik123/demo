@@ -1,0 +1,37 @@
+name: status_downloader
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  adaptive_theme: ^3.0.0
+  filesystem_picker: ^3.1.0
+  flutter_staggered_grid_view: ^0.6.2
+  image_gallery_saver: ^2.0.3
+  path_provider: ^2.0.11
+  permission_handler: ^10.4.3
+  provider: ^6.0.3
+  share: ^2.0.4
+  speed_dial_fab: ^2.2.1
+  url_launcher: ^6.1.5
+  video_player: ^2.4.6
+  device_info_plus: ^9.0.2
+  share_plus: ^7.0.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
